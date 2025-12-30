@@ -522,7 +522,8 @@ else:
 class AttendanceApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("SIH PROTYPE - Attendance System")
+        self.root.title("Secure Offline AI-Based Attendance System with Face Recognition & Analytics
+")
         self.root.geometry("1100x700")
         set_window_icon(root)
 
@@ -829,3 +830,4 @@ if __name__ == "__main__":
 
     app = AttendanceApp(root)
     root.mainloop()
+
